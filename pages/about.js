@@ -9,13 +9,12 @@ export default function Home() {
     <div className={styles.container}>
       <CustomHead />
       <main className={styles.main}>
-        <h1 className={styles.title}>Index Page</h1>
+        <h1 className={styles.title}>About page</h1>
 
         <CustomDesc />
 
         <HeadLine />
       </main>
-
       <Footer />
     </div>
   );
