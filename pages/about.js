@@ -5,13 +5,14 @@ import { CustomDesc } from "../components/CustomDesc";
 import { HeadLine } from "../components/HeadLine";
 
 export default function Home() {
+  const CurrentPage = "About";
   return (
     <div className={styles.container}>
-      <CustomHead />
+      <CustomHead title={CurrentPage} />
       <main className={styles.main}>
         <h1 className={styles.title}>About page</h1>
 
-        <CustomDesc />
+        <CustomDesc title={CurrentPage} />
 
         <HeadLine />
       </main>
